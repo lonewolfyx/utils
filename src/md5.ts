@@ -1,3 +1,5 @@
 import { Md5 } from 'md5-typescript'
 
-export const md5 = (content: string): string => Md5.init(content)
+export const md5 = (content: string): string => {
+    return Md5.init(content)
+}

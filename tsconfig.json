@@ -1,17 +1,27 @@
 {
-	"extends": "@lonewolfyx/tsconfig/tsconfig.lib.json",
-	"compilerOptions": {
-		"baseUrl": "./",
-		"paths": {
-			"@/*": [
-				"src/*"
-			]
-		}
-	},
-	"include": [
-		"src/**/*"
-	],
-	"exclude": [
-		"node_modules"
-	]
+    "compilerOptions": {
+        "baseUrl": "./",
+        "target": "ESNext",
+        "moduleResolution": "Bundler",
+        "module": "ESNext",
+        "strict": true,
+        "noEmit": true,
+        "stripInternal": true,
+        "verbatimModuleSyntax": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true,
+        "allowImportingTsExtensions": true,
+        "paths": {
+            "@/*": [
+                "src/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }

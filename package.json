@@ -24,11 +24,11 @@
 			"default": "./dist/index.cjs"
 		},
 		"import": {
-			"types": "./dist/index.d.mts",
-			"default": "./dist/index.mjs"
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.js"
 		}
 	},
-	"types": "./dist/index.d.mts",
+	"types": "./dist/index.d.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/lonewolfyx/utils.git"
@@ -38,7 +38,6 @@
 		"md5-typescript": "^1.0.5"
 	},
 	"devDependencies": {
-		"@lonewolfyx/tsconfig": "^0.0.5",
 		"@types/node": "^22.13.10",
 		"eslint": "^9.22.0",
 		"prettier": "^3.5.3",
@@ -48,7 +47,6 @@
 		"typescript": "^5.8.2"
 	},
 	"license": "MIT",
-	"module": "./dist/index.mjs",
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org",
 		"access": "public"
