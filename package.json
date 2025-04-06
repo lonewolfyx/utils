@@ -1,0 +1,51 @@
+{
+    "name": "utils",
+    "author": "lonewolfyx <877085893@qq.com>",
+    "version": "0.0.0",
+    "description": "",
+    "type": "module",
+    "scripts": {
+        "build": "tsup",
+        "dev": "tsup --watch",
+        "format": "prettier --write ./"
+    },
+    "keywords": [],
+    "homepage": "https://github.com/lonewolfyx/utils",
+    "bugs": {
+        "url": "https://github.com/lonewolfyx/utils/issues"
+    },
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/index.cjs",
+    "exports": {
+        "require": {
+            "types": "./dist/index.d.cts",
+            "default": "./dist/index.cjs"
+        },
+        "import": {
+            "types": "./dist/index.d.mts",
+            "default": "./dist/index.mjs"
+        }
+    },
+    "types": "./dist/index.d.cts",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lonewolfyx/utils.git"
+    },
+    "dependencies": {
+        "fs-extra": "^11.3.0"
+    },
+    "devDependencies": {
+        "@lonewolfyx/tsconfig": "^0.0.5",
+        "@types/node": "^22.13.10",
+        "eslint": "^9.22.0",
+        "prettier": "^3.5.3",
+        "prettier-plugin-multiline-arrays": "^4.0.3",
+        "tsup": "^8.4.0",
+        "tsx": "^4.19.3",
+        "typescript": "^5.8.2"
+    },
+    "license": "MIT",
+    "module": "./dist/index.mjs"
+}
