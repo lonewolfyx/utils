@@ -1,3 +1,1 @@
-export const log = (...args: string[]) => {
-	console.log(...args)
-}
+export { md5 } from './md5'
