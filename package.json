@@ -29,7 +29,8 @@
     ],
     "scripts": {
         "lint": "eslint",
-        "lint:fix": "eslint --fix"
+        "lint:fix": "eslint --fix",
+        "prepare": "simple-git-hooks"
     },
     "dependencies": {
         "fs-extra": "^11.3.0",
@@ -39,10 +40,20 @@
         "@antfu/eslint-config": "^8.0.0",
         "@types/node": "^25.5.2",
         "eslint": "^10.2.0",
-        "jiti": "^2.6.1"
+        "jiti": "^2.6.1",
+        "lint-staged": "^16.4.0",
+        "picocolors": "^1.1.1",
+        "simple-git-hooks": "^2.13.1"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org",
         "access": "public"
+    },
+    "simple-git-hooks": {
+        "pre-commit": "npx lint-staged",
+        "commit-msg": "node scripts/verify-commit.js"
+    },
+    "lint-staged": {
+        "*": "eslint --fix"
     }
 }
