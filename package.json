@@ -1,64 +1,64 @@
 {
-    "name": "@lonewolfyx/utils",
-    "type": "module",
-    "version": "0.0.0",
-    "packageManager": "pnpm@10.33.0",
-    "description": "Collection of common JavaScript / TypeScript utils",
-    "author": "lonewolfyx",
-    "license": "MIT",
-    "homepage": "https://github.com/lonewolfyx/utils",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/lonewolfyx/utils.git"
-    },
-    "bugs": {
-        "url": "https://github.com/lonewolfyx/utils/issues"
-    },
-    "keywords": [
-        "utils"
-    ],
-    "sideEffects": false,
-    "exports": {
-        ".": "./dist/index.mjs",
-        "./package.json": "./package.json"
-    },
-    "types": "dist/index.d.mts",
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "dev": "tsdown --watch",
-        "build": "tsdown",
-        "lint": "eslint",
-        "lint:fix": "eslint --fix",
-        "prepare": "simple-git-hooks",
-        "prepublishOnly": "pnpm build",
-        "test": "vitest"
-    },
-    "dependencies": {
-        "fs-extra": "^11.3.0",
-        "md5-typescript": "^1.0.5"
-    },
-    "devDependencies": {
-        "@antfu/eslint-config": "^8.0.0",
-        "@types/node": "^25.5.2",
-        "eslint": "^10.2.0",
-        "jiti": "^2.6.1",
-        "lint-staged": "^16.4.0",
-        "picocolors": "^1.1.1",
-        "simple-git-hooks": "^2.13.1",
-        "tsdown": "^0.21.7",
-        "vitest": "^4.1.2"
-    },
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org",
-        "access": "public"
-    },
-    "simple-git-hooks": {
-        "pre-commit": "npx lint-staged",
-        "commit-msg": "node scripts/verify-commit.js"
-    },
-    "lint-staged": {
-        "*": "eslint --fix"
-    }
+  "name": "@lonewolfyx/utils",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@10.33.0",
+  "description": "Collection of common JavaScript / TypeScript utils",
+  "author": "lonewolfyx",
+  "license": "MIT",
+  "homepage": "https://github.com/lonewolfyx/utils",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lonewolfyx/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lonewolfyx/utils/issues"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./package.json": "./package.json"
+  },
+  "types": "dist/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsdown --watch",
+    "build": "tsdown",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "prepare": "simple-git-hooks",
+    "prepublishOnly": "pnpm build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.0",
+    "md5-typescript": "^1.0.5"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^8.0.0",
+    "@types/node": "^25.5.2",
+    "eslint": "^10.2.0",
+    "jiti": "^2.6.1",
+    "lint-staged": "^16.4.0",
+    "picocolors": "^1.1.1",
+    "simple-git-hooks": "^2.13.1",
+    "tsdown": "^0.21.7",
+    "vitest": "^4.1.2"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "commit-msg": "node scripts/verify-commit.js"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
 }
