@@ -1,22 +1,22 @@
 {
     "compilerOptions": {
-        "baseUrl": "./",
         "target": "ESNext",
-        "moduleResolution": "Bundler",
+        "baseUrl": "./",
         "module": "ESNext",
-        "strict": true,
-        "noEmit": true,
-        "stripInternal": true,
-        "verbatimModuleSyntax": true,
-        "skipLibCheck": true,
-        "allowSyntheticDefaultImports": true,
-        "resolveJsonModule": true,
-        "allowImportingTsExtensions": true,
+        "moduleResolution": "Bundler",
         "paths": {
             "@/*": [
                 "src/*"
             ]
-        }
+        },
+        "resolveJsonModule": true,
+        "allowImportingTsExtensions": true,
+        "strict": true,
+        "noEmit": true,
+        "stripInternal": true,
+        "allowSyntheticDefaultImports": true,
+        "verbatimModuleSyntax": true,
+        "skipLibCheck": true
     },
     "include": [
         "src/**/*.ts"
