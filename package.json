@@ -32,7 +32,8 @@
         "lint": "eslint",
         "lint:fix": "eslint --fix",
         "prepare": "simple-git-hooks",
-        "prepublishOnly": "pnpm build"
+        "prepublishOnly": "pnpm build",
+        "test": "vitest"
     },
     "dependencies": {
         "fs-extra": "^11.3.0",
