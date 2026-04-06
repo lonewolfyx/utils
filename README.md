@@ -10,10 +10,10 @@
 
 ## 安装
 
-#### 你可以通过 npm 或 yarn 来安装 web-utils：
+### 你可以通过 npm 或 yarn 来安装 web-utils：
 
 ```sh
-$ yarn add @lonewolfyx/utils --dev 
+$ yarn add @lonewolfyx/utils --dev
 ```
 
 or
