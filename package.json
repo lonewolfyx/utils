@@ -1,42 +1,47 @@
 {
-	"name": "@lonewolfyx/utils",
-	"author": "lonewolfyx",
-	"version": "0.0.0",
-	"packageManager": "pnpm@10.33.0",
-	"description": "Collection of common JavaScript / TypeScript utils",
-	"type": "module",
-	"scripts": {
-	},
-	"keywords": [
-		"utils"
-	],
-	"sideEffects": false,
-	"homepage": "https://github.com/lonewolfyx/utils",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/lonewolfyx/utils.git"
-	},
-	"bugs": {
-		"url": "https://github.com/lonewolfyx/utils/issues"
-	},
-	"exports": {
-		".": "./dist/index.mjs"
-	},
-	"main": "dist/index.mjs",
-	"module": "dist/index.mjs",
-	"types": "dist/index.d.mts",
-	"files": [
-		"dist"
-	],
-	"dependencies": {
-		"fs-extra": "^11.3.0",
-		"md5-typescript": "^1.0.5"
-	},
-	"devDependencies": {
-	},
-	"license": "MIT",
-	"publishConfig": {
-		"registry": "https://registry.npmjs.org",
-		"access": "public"
-	}
+    "name": "@lonewolfyx/utils",
+    "type": "module",
+    "version": "0.0.0",
+    "packageManager": "pnpm@10.33.0",
+    "description": "Collection of common JavaScript / TypeScript utils",
+    "author": "lonewolfyx",
+    "license": "MIT",
+    "homepage": "https://github.com/lonewolfyx/utils",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lonewolfyx/utils.git"
+    },
+    "bugs": {
+        "url": "https://github.com/lonewolfyx/utils/issues"
+    },
+    "keywords": [
+        "utils"
+    ],
+    "sideEffects": false,
+    "exports": {
+        ".": "./dist/index.mjs"
+    },
+    "main": "dist/index.mjs",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.mts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "lint": "eslint",
+        "lint:fix": "eslint --fix"
+    },
+    "dependencies": {
+        "fs-extra": "^11.3.0",
+        "md5-typescript": "^1.0.5"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^8.0.0",
+        "eslint": "^10.2.0",
+        "jiti": "^2.6.1"
+    },
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
+    }
 }
