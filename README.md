@@ -8,16 +8,8 @@
 
 > 一个轻量级的 JavaScript 工具库，旨在简化常见的 Web 开发任务。它提供了一系列实用的函数和方法
 
-## 安装
-
-### 你可以通过 npm 或 yarn 来安装 web-utils：
+## Usage
 
 ```sh
-$ yarn add @lonewolfyx/utils --dev
-```
-
-or
-
-```sh
-$ npm install @lonewolfyx/utils --save-dev
+pnpm add @lonewolfyx/utils -D
 ```
