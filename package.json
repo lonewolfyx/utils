@@ -19,18 +19,20 @@
     ],
     "sideEffects": false,
     "exports": {
-        ".": "./dist/index.mjs"
+        ".": "./dist/index.mjs",
+        "./package.json": "./package.json"
     },
-    "main": "dist/index.mjs",
-    "module": "dist/index.mjs",
     "types": "dist/index.d.mts",
     "files": [
         "dist"
     ],
     "scripts": {
+        "dev": "tsdown --watch",
+        "build": "tsdown",
         "lint": "eslint",
         "lint:fix": "eslint --fix",
-        "prepare": "simple-git-hooks"
+        "prepare": "simple-git-hooks",
+        "prepublishOnly": "pnpm build"
     },
     "dependencies": {
         "fs-extra": "^11.3.0",
@@ -43,7 +45,8 @@
         "jiti": "^2.6.1",
         "lint-staged": "^16.4.0",
         "picocolors": "^1.1.1",
-        "simple-git-hooks": "^2.13.1"
+        "simple-git-hooks": "^2.13.1",
+        "tsdown": "^0.21.7"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org",
