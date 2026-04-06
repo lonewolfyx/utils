@@ -29,7 +29,15 @@ export function capitalize(str: string): string {
 	return str[0].toUpperCase() + str.slice(1).toLowerCase()
 }
 
-
+/**
+ * md5
+ * @param content
+ *
+ * @example
+ * ```
+ * md5('hello') => '5d41402abc4b2a76b9719d911017c592'
+ * ```
+ */
 export function md5(content: string): string {
 	return Md5.init(content)
 }
