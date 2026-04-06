@@ -11,4 +11,7 @@ export default antfu({
             'yaml/indent': ['error', 2],
         },
     },
+    rules:{
+        'regexp/no-unused-capturing-group':'off'
+    }
 })
