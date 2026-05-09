@@ -1,0 +1,8 @@
+{
+    "permissions": {
+        "allow": [
+            "WebFetch(domain:vitepress.dev)",
+            "Bash(npx vitepress:*)"
+        ]
+    }
+}
