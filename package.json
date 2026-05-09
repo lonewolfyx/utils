@@ -33,11 +33,15 @@
         "lint:fix": "eslint --fix",
         "prepare": "simple-git-hooks",
         "prepublishOnly": "pnpm build",
-        "test": "vitest"
+        "test": "vitest",
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
     },
     "dependencies": {
         "fs-extra": "^11.3.0",
-        "md5-typescript": "^1.0.5"
+        "md5-typescript": "^1.0.5",
+        "vitepress": "^1.6.4"
     },
     "devDependencies": {
         "@antfu/eslint-config": "^8.0.0",
