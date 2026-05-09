@@ -1,0 +1,21 @@
+{
+    "label": "English",
+    "lang": "en-US",
+    "link": "/en/",
+    "description": "A lightweight JavaScript utility library",
+    "nav": [
+        { "text": "Guide", "link": "/en/guide/getting-started" },
+        { "text": "API", "link": "/en/api/format" }
+    ],
+    "guideLabel": "Guide",
+    "gettingStarted": "Getting Started",
+    "apiLabel": "API Reference",
+    "apiItems": [
+        { "text": "format - Number Formatting", "link": "/en/api/format" },
+        { "text": "promise - Async Utilities", "link": "/en/api/promise" },
+        { "text": "schedule - Task Scheduler", "link": "/en/api/schedule" },
+        { "text": "string - String Utilities", "link": "/en/api/string" }
+    ],
+    "outline": "On this page",
+    "lastUpdated": "Last updated"
+}
