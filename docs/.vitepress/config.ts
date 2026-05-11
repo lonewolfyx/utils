@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 import zhCN from './locales/zh-CN.json'
 import enUS from './locales/en-US.json'
+import tailwindcss from '@tailwindcss/vite'
 
 function createLocale(locale: typeof zhCN, prefix: string) {
 	return {
@@ -49,6 +50,12 @@ export default defineConfig({
 	themeConfig: {
 		socialLinks: [
 			{ icon: 'github', link: 'https://github.com/lonewolfyx/utils' }
+		]
+	},
+
+	vite:{
+		plugins:[
+			tailwindcss() as never
 		]
 	}
 })
