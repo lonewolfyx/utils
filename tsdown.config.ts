@@ -1,7 +1,7 @@
 import { defineConfig } from 'tsdown'
 
 export default defineConfig({
-	exports: true,
-	dts: true,
-	sourcemap: false
+    exports: true,
+    dts: true,
+    sourcemap: false,
 })

@@ -12,8 +12,8 @@ Creates a task scheduler instance where tasks execute in the order they are adde
 function createSchedule(): Schedule
 
 interface Schedule {
-    todo(task: Task): Schedule
-    done(): Promise<unknown[]>
+    todo: (task: Task) => Schedule
+    done: () => Promise<unknown[]>
 }
 
 type Task = (() => Promise<unknown>) | Promise<unknown>
@@ -104,7 +104,8 @@ try {
         })
         .todo(async () => console.log('Task 3 — will not execute'))
         .done()
-} catch (e) {
+}
+catch (e) {
     console.error(e) // Error: Task 2 error
 }
 ```

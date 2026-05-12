@@ -20,7 +20,7 @@ yarn add @lonewolfyx/utils
 It is recommended to import only the functions you need:
 
 ```ts
-import { formatNumber, capitalize, sleep } from '@lonewolfyx/utils'
+import { capitalize, formatNumber, sleep } from '@lonewolfyx/utils'
 
 // Number formatting with thousand separators
 formatNumber(1234567) // '1,234,567'

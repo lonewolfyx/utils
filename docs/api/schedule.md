@@ -12,8 +12,8 @@
 function createSchedule(): Schedule
 
 interface Schedule {
-    todo(task: Task): Schedule
-    done(): Promise<unknown[]>
+    todo: (task: Task) => Schedule
+    done: () => Promise<unknown[]>
 }
 
 type Task = (() => Promise<unknown>) | Promise<unknown>
@@ -104,7 +104,8 @@ try {
         })
         .todo(async () => console.log('任务 3 — 不会执行'))
         .done()
-} catch (e) {
+}
+catch (e) {
     console.error(e) // Error: 任务 2 出错
 }
 ```

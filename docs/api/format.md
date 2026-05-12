@@ -27,8 +27,8 @@ function formatNumber(num: number): string
 ```ts
 import { formatNumber } from '@lonewolfyx/utils'
 
-formatNumber(1234567)    // '1,234,567'
+formatNumber(1234567) // '1,234,567'
 formatNumber(1234567890) // '1,234,567,890'
-formatNumber(100)        // '100'
-formatNumber(0)          // '0'
+formatNumber(100) // '100'
+formatNumber(0) // '0'
 ```

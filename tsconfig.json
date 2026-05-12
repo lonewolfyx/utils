@@ -3,13 +3,16 @@
         "target": "ESNext",
         "baseUrl": "./",
         "module": "ESNext",
-        "moduleResolution": "Bundler",
+        "moduleResolution": "bundler",
         "paths": {
             "@/*": [
                 "src/*"
             ]
         },
         "resolveJsonModule": true,
+        "types": [
+            "node"
+        ],
         "allowImportingTsExtensions": true,
         "strict": true,
         "noEmit": true,
