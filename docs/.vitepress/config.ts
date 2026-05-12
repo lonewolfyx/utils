@@ -2,6 +2,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { defineConfig } from 'vitepress'
 import enUS from './locales/en-US.json'
 import zhCN from './locales/zh-CN.json'
+import { codeBlockPlugin } from './plugins/code-block'
 
 function createLocale(locale: typeof zhCN, prefix: string): any {
     return {
@@ -82,6 +83,17 @@ function disableVitePressBaseCss(): any {
 export default defineConfig({
     title: '@lonewolfyx/utils',
     description: '一个轻量级的 JavaScript 工具库',
+
+    markdown: {
+        lineNumbers: true,
+        theme: {
+            light: 'github-light',
+            dark: 'github-dark',
+        },
+        config(md) {
+            md.use(codeBlockPlugin)
+        },
+    },
 
     locales: {
         root: createLocale(zhCN, ''),

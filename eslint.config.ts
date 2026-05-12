@@ -28,5 +28,6 @@ export default antfu({
         'regexp/no-unused-capturing-group': 'off',
         'node/prefer-global/process': 'off',
         'unused-imports/no-unused-vars': 'off',
+        'e18e/prefer-static-regex': 'off',
     },
 })
