@@ -26,6 +26,7 @@
 
             <div>
                 <ModeSwitcher />
+                <SiteSocialLink />
             </div>
         </header>
     </div>
@@ -36,6 +37,7 @@ import { useData } from 'vitepress'
 import { cn } from '../lib/utils'
 import ModeSwitcher from './ModeSwitcher.vue'
 import NavBarMenuLink from './NavBarMenuLink.vue'
+import SiteSocialLink from './SiteSocialLink.vue'
 import {
     NavigationMenu,
     NavigationMenuItem,
