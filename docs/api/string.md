@@ -27,10 +27,10 @@ function capitalize(str: string): string
 ```ts
 import { capitalize } from '@lonewolfyx/utils'
 
-capitalize('hello')   // 'Hello'
-capitalize('HELLO')   // 'Hello'
-capitalize('hELLO')   // 'Hello'
-capitalize('vitest')  // 'Vitest'
+capitalize('hello') // 'Hello'
+capitalize('HELLO') // 'Hello'
+capitalize('hELLO') // 'Hello'
+capitalize('vitest') // 'Vitest'
 ```
 
 ---
@@ -65,7 +65,7 @@ import { randomStr } from '@lonewolfyx/utils'
 randomStr() // 'a1b2c3d4e5f6g7h8'
 
 // 指定长度
-randomStr(8)  // 'a1b2c3d4'
+randomStr(8) // 'a1b2c3d4'
 randomStr(32) // 'a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6'
 
 // 自定义字符集

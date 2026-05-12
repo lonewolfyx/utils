@@ -8,13 +8,13 @@ const urlAlphabet = 'useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwy
  * Generate a random string
  * @category String
  */
-export function randomStr(size = 16, dict = urlAlphabet) {
-	let id = ''
-	let i = size
-	const len = dict.length
-	while (i--)
-		id += dict[(Math.random() * len) | 0]
-	return id
+export function randomStr(size = 16, dict = urlAlphabet): string {
+    let id = ''
+    let i = size
+    const len = dict.length
+    while (i--)
+        id += dict[(Math.random() * len) | 0]
+    return id
 }
 
 /**
@@ -26,7 +26,7 @@ export function randomStr(size = 16, dict = urlAlphabet) {
  * ```
  */
 export function capitalize(str: string): string {
-	return str[0].toUpperCase() + str.slice(1).toLowerCase()
+    return str[0].toUpperCase() + str.slice(1).toLowerCase()
 }
 
 /**
@@ -39,5 +39,5 @@ export function capitalize(str: string): string {
  * ```
  */
 export function md5(content: string): string {
-	return Md5.init(content)
+    return Md5.init(content)
 }

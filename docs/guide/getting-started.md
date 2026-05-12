@@ -20,7 +20,7 @@ yarn add @lonewolfyx/utils
 推荐按需引入所需的工具函数：
 
 ```ts
-import { formatNumber, capitalize, sleep } from '@lonewolfyx/utils'
+import { capitalize, formatNumber, sleep } from '@lonewolfyx/utils'
 
 // 数字千分位格式化
 formatNumber(1234567) // '1,234,567'

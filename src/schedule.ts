@@ -11,23 +11,23 @@ import type { Task } from '@/types.ts'
  *   .todo(saveData())
  *   .done()
  */
-export function createSchedule() {
-	const _tasks: Task[] = []
+export function createSchedule(): any {
+    const _tasks: Task[] = []
 
-	const schedule = {
-		todo(task: Task) {
-			_tasks.push(task)
-			return schedule
-		},
-		async done() {
-			const results: unknown[] = []
-			for (const task of _tasks) {
-				const result = typeof task === 'function' ? await task() : await task
-				results.push(result)
-			}
-			return results
-		},
-	}
+    const schedule = {
+        todo(task: Task) {
+            _tasks.push(task)
+            return schedule
+        },
+        async done() {
+            const results: unknown[] = []
+            for (const task of _tasks) {
+                const result = typeof task === 'function' ? await task() : await task
+                results.push(result)
+            }
+            return results
+        },
+    }
 
-	return schedule
+    return schedule
 }
