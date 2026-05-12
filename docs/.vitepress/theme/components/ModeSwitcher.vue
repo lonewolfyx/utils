@@ -53,7 +53,7 @@ const colorMode = useColorMode({
     attribute: 'class',
     storageKey: 'app-color-mode',
     onChanged(value, defaultHandler) {
-        if (import.meta.server) {
+        if (import.meta.env.SSR) {
             return
         }
 
