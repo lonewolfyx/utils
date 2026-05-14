@@ -14,7 +14,8 @@
         { "text": "format - Number Formatting", "link": "/en/api/format" },
         { "text": "promise - Async Utilities", "link": "/en/api/promise" },
         { "text": "schedule - Task Scheduler", "link": "/en/api/schedule" },
-        { "text": "string - String Utilities", "link": "/en/api/string" }
+        { "text": "string - String Utilities", "link": "/en/api/string" },
+        { "text": "array - File Reading", "link": "/en/api/array" }
     ],
     "outline": "On this page",
     "lastUpdated": "Last updated"

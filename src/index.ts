@@ -1,3 +1,4 @@
+export * from './array.ts'
 export * from './format.ts'
 export * from './promise.ts'
 export * from './schedule.ts'

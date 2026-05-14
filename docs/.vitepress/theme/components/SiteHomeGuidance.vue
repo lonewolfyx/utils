@@ -88,6 +88,16 @@ const fn = [
         },
     },
     {
+        label: 'array · 文件读取与 JSON 解析相关工具函数',
+        children: {
+            readJsonContent: {
+                icon: 'mdi:file-document-outline',
+                label: 'readJsonContent · 读取 JSON 文件内容',
+                href: '/api/array.html#readjsoncontent',
+            },
+        },
+    },
+    {
         label: 'string · 异步相关的工具函数',
         children: {
             capitalize: {

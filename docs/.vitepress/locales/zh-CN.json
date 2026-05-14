@@ -14,7 +14,8 @@
         { "text": "format - 数字格式化", "link": "/api/format" },
         { "text": "promise - 异步工具", "link": "/api/promise" },
         { "text": "schedule - 任务调度", "link": "/api/schedule" },
-        { "text": "string - 字符串工具", "link": "/api/string" }
+        { "text": "string - 字符串工具", "link": "/api/string" },
+        { "text": "array - 文件读取", "link": "/api/array" }
     ],
     "outline": "页面导航",
     "lastUpdated": "最后更新于"
