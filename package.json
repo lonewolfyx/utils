@@ -55,9 +55,9 @@
         "clsx": "^2.1.1",
         "eslint": "^10.2.0",
         "jiti": "^2.6.1",
-        "lint-staged": "^16.4.0",
         "lucide-vue-next": "^1.0.0",
         "markdown-it": "^14.1.1",
+        "nano-staged": "^1.0.2",
         "picocolors": "^1.1.1",
         "reka-ui": "^2.9.7",
         "shiki": "^4.0.2",
@@ -74,10 +74,10 @@
         "access": "public"
     },
     "simple-git-hooks": {
-        "pre-commit": "npx lint-staged",
+        "pre-commit": "npx nano-staged",
         "commit-msg": "node scripts/verify-commit.js"
     },
-    "lint-staged": {
+    "nano-staged": {
         "*": "eslint --fix"
     }
 }
