@@ -70,6 +70,11 @@ const fn = [
                 label: 'sleep · 基于 Promise 的延时函数',
                 href: '/api/promise.html#sleep',
             },
+            importDefault: {
+                icon: 'mdi:import',
+                label: 'importDefault · 动态导入模块默认导出',
+                href: '/api/promise.html#importdefault',
+            },
         },
     },
     {

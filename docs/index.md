@@ -20,7 +20,7 @@ features:
     - title: format
       details: 数字格式化工具，支持千分位分隔符格式化。
     - title: promise
-      details: 异步工具函数，提供 sleep 等实用方法。
+      details: 异步工具函数，提供 sleep、importDefault 等实用方法。
     - title: schedule
       details: 链式 API 的顺序任务调度器，支持异步任务编排。
     - title: string

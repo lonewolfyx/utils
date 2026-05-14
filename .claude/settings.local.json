@@ -2,7 +2,11 @@
     "permissions": {
         "allow": [
             "WebFetch(domain:vitepress.dev)",
-            "Bash(npx vitepress:*)"
+            "Bash(npx vitepress:*)",
+            "Bash(npx vitest:*)",
+            "Bash(npx tsc:*)",
+            "Bash(npx vue-tsc:*)",
+            "Bash(npx tsdown:*)"
         ]
     }
 }
