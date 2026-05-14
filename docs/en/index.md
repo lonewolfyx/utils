@@ -20,7 +20,7 @@ features:
     - title: format
       details: Number formatting utilities with thousand separator support.
     - title: promise
-      details: Async utility functions, providing methods like sleep.
+      details: Async utility functions, providing methods like sleep and importDefault.
     - title: schedule
       details: Sequential task scheduler with chainable API for async task orchestration.
     - title: string
