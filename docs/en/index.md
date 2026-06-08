@@ -19,6 +19,8 @@ hero:
 features:
     - title: format
       details: Number formatting utilities with thousand separator support.
+    - title: number
+      details: Number calculation utilities, providing methods like array sum.
     - title: promise
       details: Async utility functions, providing methods like sleep and importDefault.
     - title: schedule
