@@ -12,6 +12,7 @@
     "apiLabel": "API 参考",
     "apiItems": [
         { "text": "format - 数字格式化", "link": "/api/format" },
+        { "text": "number - 数字计算", "link": "/api/number" },
         { "text": "promise - 异步工具", "link": "/api/promise" },
         { "text": "schedule - 任务调度", "link": "/api/schedule" },
         { "text": "string - 字符串工具", "link": "/api/string" }

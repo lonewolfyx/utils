@@ -19,6 +19,8 @@ hero:
 features:
     - title: format
       details: 数字格式化工具，支持千分位分隔符格式化。
+    - title: number
+      details: 数字计算工具，提供数组求和等实用方法。
     - title: promise
       details: 异步工具函数，提供 sleep、importDefault 等实用方法。
     - title: schedule

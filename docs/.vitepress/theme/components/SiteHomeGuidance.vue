@@ -63,6 +63,16 @@ const fn = [
         },
     },
     {
+        label: 'number · 数字计算相关工具函数',
+        children: {
+            sum: {
+                icon: 'mdi:sigma',
+                label: 'sum · 计算数组总和',
+                href: '/api/number.html#sum',
+            },
+        },
+    },
+    {
         label: 'promise · 异步相关的工具函数',
         children: {
             sleep: {

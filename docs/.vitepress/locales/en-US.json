@@ -12,6 +12,7 @@
     "apiLabel": "API Reference",
     "apiItems": [
         { "text": "format - Number Formatting", "link": "/en/api/format" },
+        { "text": "number - Number Calculation", "link": "/en/api/number" },
         { "text": "promise - Async Utilities", "link": "/en/api/promise" },
         { "text": "schedule - Task Scheduler", "link": "/en/api/schedule" },
         { "text": "string - String Utilities", "link": "/en/api/string" }
