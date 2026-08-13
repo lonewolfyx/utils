@@ -1,4 +1,5 @@
 export * from './format.ts'
+export * from './is.ts'
 export * from './number.ts'
 export * from './promise.ts'
 export * from './schedule.ts'
